@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
   name = 'django-lazy-settings',
-  packages = ['django-lazy-settings'],
+  packages = ['lazy_setting', 'lazy_setting.templatetags'],
   version = '1.0',
   description = 'An easy way to use settings variable in django template.',
   author = 'Smith Krengkrud',
