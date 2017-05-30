@@ -13,7 +13,7 @@ You can also install it with: ``pip install django-lazy-settings``
 Configuration
 -------------
 
-Add the sr app to your installed apps and define your settings :code:`SR` variable as a dictionary.
+Add the lazy_setting app to your installed apps.
 
 Example:
 
