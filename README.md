@@ -17,7 +17,7 @@ Add the sr app to your installed apps and define your settings :code:`SR` variab
 
 Example:
 
-.. code-block:: python
+```python
 
     # settings.py
     INSTALLED_APPS = [
@@ -25,16 +25,15 @@ Example:
 
         'lazy_setting'
     ]
-
+```
 
 Usage examples
 --------------
 
 Use it from your template code with ``lz`` template tag:
 
-.. code-block:: django
-
+```django
     {% load lazy_setting %}
     <span class="message">{% lz 'SETTING_KEY' %}</span>
     <span class="other">{% lz 'SECRET_KEY' %}</span>
-
+```
